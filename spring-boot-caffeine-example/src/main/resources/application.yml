@@ -1,0 +1,19 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /api/v1
+spring:
+  profiles:
+    active: dev
+  application:
+    name: spring-boot-caffeine-example
+springdoc:
+  swagger-ui.tagsSorter: alpha
+  writer-with-order-by-keys: true
+cache:
+  users:
+    info:
+      ttl: 12
+      max-size: 3
+
+# http://localhost:8085/api/v1/swagger-ui/index.html

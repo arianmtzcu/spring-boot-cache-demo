@@ -27,6 +27,10 @@
 		<surefire.skip>false</surefire.skip>
 	</properties>
 
+	<modules>
+		<module>spring-boot-caffeine-example</module>
+	</modules>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
