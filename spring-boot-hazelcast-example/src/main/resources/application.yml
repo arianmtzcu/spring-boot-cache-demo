@@ -1,0 +1,20 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /api/v1
+spring:
+  profiles:
+    active: dev
+  application:
+    name: spring-boot-hazelcast-example
+app:
+  hazelcast:
+    cluster-name: MS_DEMO_CLUSTER
+    instance-name: HZ-INSTANCE-1
+    #members list separated by comma ","
+    members: 127.0.0.1
+springdoc:
+  swagger-ui.tagsSorter: alpha
+  writer-with-order-by-keys: true
+
+# http://localhost:8087/api/v1/swagger-ui/index.html

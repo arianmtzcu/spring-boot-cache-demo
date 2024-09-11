@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "b8bb375b-f358-49c2-bb9b-934ce282a737",
+		"name": "Spring Boot Hazelcast Example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12341669",
+		"_collection_link": "https://grey-crater-860746.postman.co/workspace/CMS~d378b3c1-0e78-45dc-ad4e-75b07abd49e2/collection/12341669-b8bb375b-f358-49c2-bb9b-934ce282a737?action=share&source=collection_link&creator=12341669"
+	},
+	"item": [
+		{
+			"name": "/cache/greet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/api/v1/cache/greet",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"api",
+						"v1",
+						"cache",
+						"greet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/cache/generate/{word}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/api/v1/cache/generate/lucas",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"api",
+						"v1",
+						"cache",
+						"generate",
+						"lucas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/cache/find/{uuid}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/api/v1/cache/find/546f38d2-5118-4b10-854f-45db40a90feb",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"api",
+						"v1",
+						"cache",
+						"find",
+						"546f38d2-5118-4b10-854f-45db40a90feb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/cache/find/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8087/api/v1/cache/find/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"api",
+						"v1",
+						"cache",
+						"find",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
