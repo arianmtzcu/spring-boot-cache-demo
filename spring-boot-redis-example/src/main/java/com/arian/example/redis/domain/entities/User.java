@@ -1,4 +1,4 @@
-package com.arian.example.redis.entities;
+package com.arian.example.redis.domain.entities;
 
 import java.io.Serializable;
 

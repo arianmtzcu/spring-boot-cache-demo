@@ -5,8 +5,8 @@ import static com.arian.example.caffeine.util.Constants.USER_CACHE;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import com.arian.example.caffeine.persistence.model.User;
-import com.arian.example.caffeine.persistence.repository.UserRepository;
+import com.arian.example.caffeine.domain.model.User;
+import com.arian.example.caffeine.domain.repository.UserRepository;
 
 @Service
 public class UserService {

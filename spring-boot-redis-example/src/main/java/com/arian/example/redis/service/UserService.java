@@ -9,8 +9,8 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import com.arian.example.redis.config.CacheConfig;
-import com.arian.example.redis.entities.User;
-import com.arian.example.redis.repository.UserRepository;
+import com.arian.example.redis.domain.entities.User;
+import com.arian.example.redis.domain.repository.UserRepository;
 
 @Service
 public class UserService {

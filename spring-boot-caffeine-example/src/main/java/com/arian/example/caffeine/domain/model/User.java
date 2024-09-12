@@ -1,4 +1,4 @@
-package com.arian.example.caffeine.persistence.model;
+package com.arian.example.caffeine.domain.model;
 
 import java.util.UUID;
 

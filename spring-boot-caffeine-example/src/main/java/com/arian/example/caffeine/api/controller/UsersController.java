@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.arian.example.caffeine.persistence.model.User;
+import com.arian.example.caffeine.domain.model.User;
 import com.arian.example.caffeine.service.UserService;
 
 import lombok.RequiredArgsConstructor;

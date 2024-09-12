@@ -5,10 +5,10 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @EnableCaching
 @SpringBootApplication
-public class SpringBootHazelcastExampleApplication {
+public class HazelcastExampleApplication {
 
    public static void main(String[] args) {
-      SpringApplication.run(SpringBootHazelcastExampleApplication.class, args);
+      SpringApplication.run(HazelcastExampleApplication.class, args);
    }
 
 }

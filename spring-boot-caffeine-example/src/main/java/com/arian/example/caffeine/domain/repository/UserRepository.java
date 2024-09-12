@@ -1,4 +1,4 @@
-package com.arian.example.caffeine.persistence.repository;
+package com.arian.example.caffeine.domain.repository;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Repository;
 
-import com.arian.example.caffeine.persistence.model.User;
+import com.arian.example.caffeine.domain.model.User;
 
 import lombok.extern.slf4j.Slf4j;
 

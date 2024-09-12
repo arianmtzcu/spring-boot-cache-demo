@@ -1,4 +1,4 @@
-package com.arian.example.redis.repository;
+package com.arian.example.redis.domain.repository;
 
 import java.util.Optional;
 
@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.arian.example.redis.entities.User;
+import com.arian.example.redis.domain.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
